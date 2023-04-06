@@ -44,6 +44,21 @@
     <span class="bg-blue-300 rounded-lg w-fit"
       >{{ title }} app is running!</span
     >
+
+    <div class="flex flew-row space-x-10">
+      <nz-statistic
+        [nzValue]="(1128 | number)!"
+        [nzTitle]="'Feedback'"
+        [nzPrefix]="prefixTpl"
+      ></nz-statistic>
+      <ng-template #prefixTpl><span nz-icon nzType="like"></span></ng-template>
+      <nz-statistic
+        [nzValue]="93"
+        [nzTitle]="'Unmerged'"
+        [nzSuffix]="'/ 100'"
+      ></nz-statistic>
+      <nz-countdown [nzValue]="deadline" [nzTitle]="'Countdown'"></nz-countdown>
+    </div>
   </div>
 </div>
 <router-outlet></router-outlet>
