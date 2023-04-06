@@ -1,5 +1,15 @@
 # AngularTailwindAnt
 
+A boilerplate is a starting point for building a Angular application. It typically includes the basic files and directories that are needed for a Angular application, as well as some basic code that can be used to get started.
+
+This boilerplate uses Angular, Ant Design, and Tailwind CSS. It includes the following:
+
+A basic Angular application An Ant Design theme A Tailwind CSS configuration A unit testing framework A linter
+
+The basic Angular application is a simple todo list application that uses Ant Design and Tailwind CSS. The unit testing framework is Jest, and the linter is ESLint.
+
+This boilerplate is a great starting point for building a Angular application. It includes all of the basic files and directories that are needed, as well as some basic code that can be used to get started.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
